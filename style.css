@@ -1,0 +1,79 @@
+body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+}
+.header{
+    padding: 15px;
+    justify-content: space-between;
+}
+#d-flex{
+    display: flex;
+}
+button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: black;
+    cursor: pointer;
+}
+#white{
+    background-color: white;
+}
+.box2{
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 30px 0px;
+}
+.display{
+    align-items: center;
+}
+.md1{
+    width: 47%;
+    height: 10px;
+}
+.md2{
+    padding: 20px 40px;
+    color: black;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.footer{
+    margin: 70px 0px;
+}
+.buttom-box{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}    
+input{
+    border: 3px white solid;
+    font-size: 2.5rem;
+    padding-left: 10px;
+    width: 30%;
+    background-color: #000000;
+    color: white;
+    font-weight: bolder;
+}
+.btn{
+    margin-top: 20px;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.score{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    width: 50%;
+}
